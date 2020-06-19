@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App_AbsoluteLayoutAula.AbsolutePage1">
+    
+    <!--Sintaxe: AbsoluteLayout.LayoutBounds(x,y,width,height)
+    x - Posição x(horizontal) da âncora da view
+    y - Posição y(vertical) da âncora da view
+    width(largura) a largura da view
+    height(altura) a altura da view
+    AbsoluteLayout.LayoutFlags: Se os valores são proporcionais ou absolutos-->
+    
+    <AbsoluteLayout>
+        <BoxView Color="Purple" AbsoluteLayout.LayoutBounds="0,0,1,1"
+                                AbsoluteLayout.LayoutFlags="All"/>
+
+        <BoxView Color="Yellow" AbsoluteLayout.LayoutBounds="0.5,0.1,100,100"
+                                AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+        <Button Text="Macoratti.net" BackgroundColor="Lime" TextColor="Black"
+                AbsoluteLayout.LayoutBounds="0,1,1,40"
+                AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+    </AbsoluteLayout>
+</ContentPage>
+    
