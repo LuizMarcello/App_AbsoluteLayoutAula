@@ -13,7 +13,7 @@
     height(altura) a altura da view
     AbsoluteLayout.LayoutFlags: Se os valores são proporcionais ou absolutos-->
     
-    <AbsoluteLayout>
+    <!--<AbsoluteLayout>
         <BoxView Color="Purple" AbsoluteLayout.LayoutBounds="0,0,1,1"
                                 AbsoluteLayout.LayoutFlags="All"/>
 
@@ -23,6 +23,6 @@
         <Button Text="Macoratti.net" BackgroundColor="Lime" TextColor="Black"
                 AbsoluteLayout.LayoutBounds="0,1,1,40"
                 AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
-    </AbsoluteLayout>
+    </AbsoluteLayout>-->
 </ContentPage>
     
