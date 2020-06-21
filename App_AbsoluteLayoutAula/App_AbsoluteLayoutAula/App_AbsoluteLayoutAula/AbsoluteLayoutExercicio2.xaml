@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App_AbsoluteLayoutAula.AbsoluteLayoutExercicio2">
+    <ContentPage.Content>
+
+        <AbsoluteLayout>
+            
+            <BoxView BackgroundColor="Yellow" AbsoluteLayout.LayoutBounds="0,0,1,1"
+                     AbsoluteLayout.LayoutFlags="All"/>
+
+            <BoxView BackgroundColor="Silver" AbsoluteLayout.LayoutBounds="0,0,100,100" 
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+            <BoxView BackgroundColor="Blue" AbsoluteLayout.LayoutBounds="0,1,100,100" 
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+            <BoxView BackgroundColor="White" AbsoluteLayout.LayoutBounds="1,0,100,100" 
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+            <BoxView BackgroundColor="Green" AbsoluteLayout.LayoutBounds="1,1,100,100" 
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+
+            <BoxView BackgroundColor="Purple" AbsoluteLayout.LayoutBounds="0.5,0.5,100,100" 
+                     AbsoluteLayout.LayoutFlags="PositionProportional"/>
+            
+            <BoxView BackgroundColor="Teal" AbsoluteLayout.LayoutBounds="0.45,0.45,100,100" 
+                     AbsoluteLayout.LayoutFlags="PositionProportional" Opacity="0.5"/>
+
+        </AbsoluteLayout>
+
+    </ContentPage.Content>
+</ContentPage>

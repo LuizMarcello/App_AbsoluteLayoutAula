@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App_AbsoluteLayoutAula.AbsoluteLayoutExercicio3">
+
+    <AbsoluteLayout>
+        <Image Source="http://macoratti.net/imagens/natureza/natureza1.jpg" Aspect="AspectFill" 
+               AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All"/>
+
+        <Label Text="Paisagem" FontSize="30" HorizontalOptions="Center" TextColor="White"
+               AbsoluteLayout.LayoutBounds="0,20,1,50" AbsoluteLayout.LayoutFlags="WidthProportional"/>
+
+        <BoxView BackgroundColor="Navy" Opacity="0.5" AbsoluteLayout.LayoutBounds="0,1,1,100" 
+                 AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional"/>
+
+        <StackLayout Orientation="Horizontal" VerticalOptions="Center" AbsoluteLayout.LayoutBounds="0,1,1,100" 
+                     AbsoluteLayout.LayoutFlags="PositionProportional,WidthProportional" Padding="30">
+            <Label Text="Compartilhe" FontSize="15" FontAttributes="Bold" TextColor="White"/>
+            <Label Text="Natureza" FontSize="15" FontAttributes="Bold" HorizontalOptions="CenterAndExpand" TextColor="White"/>
+            <Label Text="Temas" FontSize="15" FontAttributes="Bold" TextColor="White"/>
+        </StackLayout>
+    </AbsoluteLayout>
+    
+</ContentPage>

@@ -10,7 +10,7 @@ namespace App_AbsoluteLayoutAula
         {
             InitializeComponent();
 
-            MainPage = new AbsolutePage1();
+            MainPage = new AbsoluteLayoutExercicio3();
         }
 
         protected override void OnStart()
